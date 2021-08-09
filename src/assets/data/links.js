@@ -30,10 +30,19 @@ export const links = [
                 language: "en",
             },
             {
-                title:
-                    "links, ressourcen, texte, personen, organisationen in deutschland",
+                title: "links, ressourcen, texte, personen, organisationen in deutschland",
                 url: "https://docs.google.com/document/d/1BZk5sDngE8Z8twGzzbmAg78ful3zCGlzZ9W73Pguw-Y/edit",
                 language: "de",
+            },
+            {
+                title: "me and white supremacy workbook",
+                url: "https://blm.btown-in.org/uploads/1/1/8/6/118615243/me_and_white_supremacy_workbook__final_book_.pdf",
+                language: "en",
+            },
+            {
+                title: "overt and covert racism",
+                url: "https://www.r2hub.org/library/overt-and-covert-racism",
+                language: "en",
             },
             {
                 title: "techno and its history",

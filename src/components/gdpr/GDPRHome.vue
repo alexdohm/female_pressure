@@ -3,7 +3,7 @@
     <Header/>
     <b-container class="mt-5 body-container">
       <div class="mb-4">
-        <h3>1. introduction</h3>
+        <h3>introduction</h3>
         <p>
           female:pressure is committed to preserving the privacy of every visitor to its Website. However, the main
           purpose of the female:pressure database on the Website is to raise the visibility of artists and make links to
@@ -18,7 +18,7 @@
         </p>
       </div>
       <div class="mb-4">
-        <h3>2. gdpr</h3>
+        <h3>gdpr</h3>
         <p>
           The EU General Data Protection Regulation [GDPR] effective from May 2018 gives all EU citizens more rights and
           protections for their personal data, to minimise the possibility of theft and fraud. These regulations include
@@ -48,7 +48,7 @@
         </ul>
       </div>
       <div class="mb-4">
-        <h3>3. controller</h3>
+        <h3>controller</h3>
         <p>female:pressure is the controller and responsible for your personal data [collectively referred to as
           “female:pressure”, “we”, “us” or “our” in this privacy notice]. If you have any questions about this privacy
           notice, including any requests to exercise your legal rights, please contact us at
@@ -65,7 +65,7 @@
           your personal data changes during your relationship with us.</p>
       </div>
       <div class="mb-4">
-        <h3>4. how we collect data</h3>
+        <h3>how we collect data</h3>
         <p>
           We use different methods to collect data from and about you including through direct interactions. You may
           give us your identity and contact by filling in forms or by corresponding with us by post, email or otherwise.
@@ -80,7 +80,7 @@
         </ul>
       </div>
       <div class="mb-4">
-        <h3>5. information we collect from you</h3>
+        <h3>information we collect from you</h3>
         <p>We collect and process the following data about you:</p>
         <ul>
           <li>Information that you provide when you fill in forms on our site, such as your name, email address, city of
@@ -96,7 +96,7 @@
         </ul>
       </div>
       <div class="mb-4">
-        <h3>6. use of Information</h3>
+        <h3>use of Information</h3>
         <p>
           (a) When you create a profile on the Website, you are asked to provide certain information about yourself
           including your name and contact details. We may collect additional information about you from emails or other
@@ -153,7 +153,7 @@
         </p>
       </div>
       <div class="mb-4">
-        <h3>7. storage of information</h3>
+        <h3>storage of information</h3>
         <p>
           (a) The information you provide to us will be held on our server. We and our Internet Service Provider employ
           security measures to protect your information from access by unauthorised persons and against unlawful
@@ -166,34 +166,34 @@
         </p>
       </div>
       <div class="mb-4">
-        <h3>8. cookies / json web tokens</h3>
+        <h3>cookies / json web tokens</h3>
         <p>
           We don’t use cookies on our Website. Instead, we use JSON web token [JWT] based authentication.
         </p>
       </div>
       <div class="mb-4">
-        <h3>9. changes to our privacy policy</h3>
+        <h3>changes to our privacy policy</h3>
         <p>
           Any changes to our privacy policy in the future will be posted to the Website and, where appropriate, sent to
           you by email notification.
         </p>
       </div>
       <div class="mb-4">
-        <h3>10. contact</h3>
+        <h3>contact</h3>
         <p>
           All comments, queries and requests relating to our use of your information are welcomed and should be emailed
           to us at info@femalepressure.net.
         </p>
       </div>
       <div class="mb-4">
-        <h3>11. access to your personal information</h3>
+        <h3>access to your personal information</h3>
         <p>
           You have the right to request a copy of the personal information we hold about you and to have any
           inaccuracies corrected. Please address requests to info@femalepressure.net
         </p>
       </div>
       <div class="mb-4">
-        <h3>12. users 16 and under</h3>
+        <h3>users 16 and under</h3>
         <p>
           If you are aged 16 or under, please get your parent/guardian’s permission beforehand whenever you provide
           personal information to our website. Users without this consent are not allowed to provide us with personal
