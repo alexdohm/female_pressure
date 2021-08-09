@@ -189,8 +189,12 @@
 <script>
 import {faq} from "@/assets/data/faq";
 import {mapMutations} from "vuex";
+import Header from "@/components/header/Header";
 
 export default {
+  components: {
+    Header,
+  },
   data() {
     return {
       faqData: faq,

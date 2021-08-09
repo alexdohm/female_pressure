@@ -42,7 +42,7 @@ export const pageHeaders = [
     },
     {
         page: 'faq',
-        title: 'faq'
+        title: 'frequently asked questions'
     },
     {
         page: 'feedback',
