@@ -107,7 +107,7 @@ export const faq4 = [
 export const faq5 = [
     {
         title5: "which languages do you use within the network ?",
-        answer5: `Our common language is English. We sometimes have conversations in German and occasionally in Spanish, too. Overcoming the language barriers in this wide-spread network is one of our biggest challenges since we have many members who are not very confident in using English. We therefore recommend the DeepL translator. It works in 26 languages and is said to be pretty reliable and [one of] the best free service[s].`,
+        answer5: `Our common language is English. We sometimes have conversations in German and occasionally in Spanish, too. Overcoming the language barriers in this wide-spread network is one of our biggest challenges since we have many members who are not very confident in using English. We therefore recommend the <a href="https://www.deepl.com/translator" target="_blank">DeepL translator</a>. It works in 26 languages and is said to be pretty reliable and [one of] the best free service[s].`,
     },
     {
         title5: "what is the “member area” on femalepressure.net ?",
@@ -115,7 +115,7 @@ export const faq5 = [
     },
     {
         title5: "do you have a code of conduct ?",
-        answer5: `Yes, you can find our code of conduct here: http://femalepressure.net/coc.html `,
+        answer5: `Yes, you can find our code of conduct here: <a href="http://femalepressure.net/coc.html">emalepressure.net/coc.html</a> `,
     },
     {
         title5: "i have a conflict with a female:pressure member. can you help me with that ?",
@@ -123,7 +123,7 @@ export const faq5 = [
     },
     {
         title5: "how is female:pressure governed ?",
-        answer5: `female:pressure is a loose, non-hierarchical, collegial D.I.Y. network. We tried to figure out how the community usually works and came up with these rules as a basis for discussion: https://communityrule.info/create/?r=1622136758831 `,
+        answer5: `female:pressure is a loose, non-hierarchical, collegial D.I.Y. network. We tried to figure out how the community usually works and came up with these rules as a basis for discussion: <a href="https://communityrule.info/create/?r=1622136758831" target="_blank">communityrule.info/create/?r=1622136758831</a> `,
     },
     {
         title5: "does female:pressure have a boss or a steering group ?",
@@ -135,11 +135,11 @@ export const faq5 = [
     },
     {
         title5: "i have a new record / new video out. will you promote my music ?",
-        answer5: `We have a monthly “new releases” playlist on Currents.fm for our members’ music. We link tracks and albums on Bandcamp, SoundCloud and sometimes YouTube on these playlists. If you are a member of our network, please notify our curation team about your new release at currents@femalepressure.net. Of course, you are also welcome to post news about your music to our mailing list.`,
+        answer5: `We have a monthly “new releases” playlist on <a href="https://a.currents.fm/c/femalepresure" target="_blank">Currents.fm</a> for our members’ music. We link tracks and albums on Bandcamp, SoundCloud and sometimes YouTube on these playlists. If you are a member of our network, please notify our curation team about your new release at currents@femalepressure.net. Of course, you are also welcome to post news about your music to our mailing list.`,
     },
     {
         title5: "what is the business model of female:pressure ?",
-        answer5: `There is none. Running costs are covered by the founder, Electric Indigo, and they are relatively low. There is no membership fee, no funding, no office, no legal entity like an association or similar form of organization. We were awarded with a nice prize from the “Tag der Clubkultur 2020” and finally had some money to spend on redesigning our website and database.`,
+        answer5: `There is none. Running costs are covered by the founder, <a href="http://indigo-inc.at/" target="_blank">Electric Indigo</a>, and they are relatively low. There is no membership fee, no funding, no office, no legal entity like an association or similar form of organization. We were awarded with a nice prize from the “<a href="https://tagderclubkultur.berlin/" target="_blank">Tag der Clubkultur 2020</a>” and finally had some money to spend on redesigning our website and database.`,
     }
 ];
 export const faq6 = [
