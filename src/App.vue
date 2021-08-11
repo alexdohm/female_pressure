@@ -74,24 +74,18 @@ export default {
   min-height: 100vh
   width: 100vw
   display: flex
+  font-size: 0.8rem!important
   flex-direction: column
   font-family: $font-main
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
   @include background-gradient
+
+.btn
+  font-size: 0.8rem!important
 </style>
 
 <style lang="sass" scoped>
 .footer
   margin-top: auto
-#app /deep/ .body-container
-  @media screen and (max-width: 1399px)
-    max-width: $body-max-width-medium
-  @media screen and (min-width: 1400px)
-    max-width: $body-max-width-large
-#app /deep/ .header-container
-  @media screen and (max-width: 1399px)
-    max-width: $body-max-width-small
-  @media screen and (min-width: 1400px)
-    max-width: $body-max-width-large
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header />
-    <b-container fluid="lg" class="mt-5 px-0 body-container">
+    <b-container fluid="lg" class="mt-5 px-0 f-body-container">
       <b-row class="justify-content-center w-100 mx-0 p-0">
         <!-- SHOW ALL THE PROJECTS -- ONLY WORKS IF THEY ARE MORE THAN 20 -->
         <section v-if="readMore">
@@ -34,7 +34,7 @@
             </b-col>
           </b-row>
         </section>
-        <button class="btn mt-5" v-on:click="loadMore">Load More</button>
+        <button class="f-button mt-5" v-on:click="loadMore">Load More</button>
       </b-row>
     </b-container>
   </div>
@@ -71,8 +71,3 @@ export default {
   },
 };
 </script>
-
-<style lang="sass" scoped>
-.btn
-  @include button
-</style>
