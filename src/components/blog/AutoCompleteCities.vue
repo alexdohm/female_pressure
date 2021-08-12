@@ -1,5 +1,5 @@
 <template>
-  <b-container class="f-body-container mt-3">
+  <b-container class="body-container mt-3">
     <vue-typeahead-bootstrap
         :data="cities"
         v-model="citySearch"
@@ -39,7 +39,6 @@ export default {
       console.log(this.cities)
     }
   },
-
   watch: {
     citySearch: _.debounce(function(addr) { this.getCities(addr) }, 500)
   }
