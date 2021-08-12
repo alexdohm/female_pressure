@@ -1,14 +1,40 @@
 export const faq1 = [
     {
-        title1: "can anyone become a member of female:pressure ?",
-        answer1: `If you identify as a woman*, AFAB [assigned female at birth], transgender, transfeminine, transmasculine, intersex [+gender optional], genderqueer, gender nonconforming, a-gender and/or non-binary, you are very welcome to join the network.
-        From experience we can tell that people who are working in the realm of electronic music, the related visual arts, club culture, or digital arts benefit most from a membership because they share more common interests with the other members of the network than people from other fields.
-        You don’t have to be a musician or DJ. We welcome booking agents, promoters, curators, researchers, journalists, dancers and many more professionals whose work is centered around electronic music.`,
+        header: "membership & database",
+        questions: [
+            {
+                title: "can anyone become a member of female:pressure ?",
+                answer: "If you identify as a woman*, AFAB [assigned female at birth], transgender, transfeminine, transmasculine, intersex [+gender optional], genderqueer, gender nonconforming, a-gender and/or non-binary, you are very welcome to join the network. From experience we can tell that people who are working in the realm of electronic music, the related visual arts, club culture, or digital arts benefit most from a membership because they share more common interests with the other members of the network than people from other fields. You don’t have to be a musician or DJ. We welcome booking agents, promoters, curators, researchers, journalists, dancers and many more professionals whose work is centered around electronic music."
+            },
+            {
+                title: "how can i join the network ?",
+                answer: "Please click on the “join the network” button and fill out the application form. Our admin team will review the application and you’ll get a confirmation email when it has been processed. You will get your login if your application was approved and will be able to create your full profile."
+            }
+        ]
     },
     {
-        title1: "how can i join the network ?",
-        answer1: `Please click on the “join the network” button and fill out the application form. Our admin team will review the application and you’ll get a confirmation email when it has been processed. You will get your login if your application was approved and will be able to create your full profile.`,
+        header: "mailing list",
+        questions: [
+            {
+                title: "can i subscribe to your mailing list if i’m not a female:pressure member ?",
+                answer: `Usually, only people who are listed in the database are subscribed to the mailing list. We do make exceptions sometimes, though. If you want to subscribe to the list but don’t want to have a profile on the website, please let us know why.`,
+            },
+            {
+                title: "how can i join the network ?",
+                answer: `Please click on the “join the network” button and fill out the application form. Our admin team will review the application and you’ll get a confirmation email when it has been processed. You will get your login if your application was approved and will be able to create your full profile.`
+            }
+        ]
     },
+    // {
+    //     title1: "can anyone become a member of female:pressure ?",
+    //     answer1: `If you identify as a woman*, AFAB [assigned female at birth], transgender, transfeminine, transmasculine, intersex [+gender optional], genderqueer, gender nonconforming, a-gender and/or non-binary, you are very welcome to join the network.
+    //     From experience we can tell that people who are working in the realm of electronic music, the related visual arts, club culture, or digital arts benefit most from a membership because they share more common interests with the other members of the network than people from other fields.
+    //     You don’t have to be a musician or DJ. We welcome booking agents, promoters, curators, researchers, journalists, dancers and many more professionals whose work is centered around electronic music.`,
+    // },
+    // {
+    //     title1: "how can i join the network ?",
+    //     answer1: `Please click on the “join the network” button and fill out the application form. Our admin team will review the application and you’ll get a confirmation email when it has been processed. You will get your login if your application was approved and will be able to create your full profile.`,
+    // },
     {
         title1: "what does it imply to be a member ?",
         answer1: `First and foremost it means that your name is listed in our online database and that people who search for matching criteria can find your name, links, and work field[s]. Secondly, you can choose to subscribe to the female:pressure mailing list which is our primary medium of communication within the network. About half the artists listed in the database are also subscribed to the mailing list.`,
