@@ -6,7 +6,7 @@
       <div v-for="(topic, index) in faqData"
            :key="'topic' + index"
            >
-        <h3>{{topic.title}}</h3>
+        <h3>{{topic.header}}</h3>
         <div class="accordion" role="tablist">
           <b-card
               no-body

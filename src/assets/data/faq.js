@@ -1,6 +1,6 @@
 export const faq = [
     {
-        title: "membership & database",
+        header: "membership & database",
         questions: [
             {
                 title: "can anyone become a member of female:pressure ?",
@@ -9,6 +9,19 @@ export const faq = [
             {
                 title: "how can i join the network ?",
                 answer: "Please click on the “join the network” button and fill out the application form. Our admin team will review the application and you’ll get a confirmation email when it has been processed. You will get your login if your application was approved and will be able to create your full profile."
+            }
+        ]
+    },
+    {
+        header: "mailing list",
+        questions: [
+            {
+                title: "can i subscribe to your mailing list if i’m not a female:pressure member ?",
+                answer: `Usually, only people who are listed in the database are subscribed to the mailing list. We do make exceptions sometimes, though. If you want to subscribe to the list but don’t want to have a profile on the website, please let us know why.`,
+            },
+            {
+                title: "how can i join the network ?",
+                answer: `Please click on the “join the network” button and fill out the application form. Our admin team will review the application and you’ll get a confirmation email when it has been processed. You will get your login if your application was approved and will be able to create your full profile.`
             }
         ]
     },
