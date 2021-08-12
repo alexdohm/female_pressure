@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header/>
-    <b-container class="mt-5 body-container">
+    <b-container class="mt-5 f-body-container">
       <div class="mb-4">
         <h3>visibility</h3>
         <p>
@@ -16,11 +16,11 @@
 
         <p>
           Founded by Vienna based
-          <b-link class="link" href="http://indigo-inc.at/" target="_blank">Electric Indigo</b-link>
+          <b-link class="f-link" href="http://indigo-inc.at/" target="_blank">Electric Indigo</b-link>
           in 1998, female:pressure is the technological answer to the recurring assertions of an alleged lack of female*
           artists in this field. The project started out as a simple html list until Viennese media artist and open
           source expert
-          <b-link class="link" href="https://twitter.com/turtlestitch" target="_blank">Andrea Mayr</b-link>
+          <b-link class="f-link" href="https://twitter.com/turtlestitch" target="_blank">Andrea Mayr</b-link>
           programmed the database in 2001. With about 180 listed artists from 19 countries 20 years ago, female:pressure
           can now be proud of including over 2700 members from 82 countries [May 2021]. Members can log in and update
           their individual profile, most of the profiles link to the artists' web pages and contain contact information.
@@ -47,21 +47,21 @@
         <p>
           The mailing list has been the primary medium of communication within the network since 2004 and about half of
           the artists listed in the database are subscribed to it. Important results of the list's activities are our
-          <b-link class="link" href="https://femalepressure.wordpress.com/FACTS/" target="_blank">FACTS Surveys</b-link>
+          <b-link class="f-link" href="https://femalepressure.wordpress.com/FACTS/" target="_blank">FACTS Surveys</b-link>
           [2013, 2015, 2017 and 2020], a call for diversity
-          <b-link class="link" href="http://femalepressure.net/pressrelease.html"> #female:pressure</b-link>
+          <b-link class="f-link" href="http://femalepressure.net/pressrelease.html"> #female:pressure</b-link>
           [2013], our
-          <b-link class="link" href="https://femalepressure.wordpress.com/festival2013/" target="_blank">Perspectives
+          <b-link class="f-link" href="https://femalepressure.wordpress.com/festival2013/" target="_blank">Perspectives
             Festival
           </b-link>
           in Berlin [2013, 2015], the
-          <b-link class="link" href="https://femalepressure.tumblr.com/" target="_blank">VISIBILITY</b-link>
+          <b-link class="f-link" href="https://femalepressure.tumblr.com/" target="_blank">VISIBILITY</b-link>
           tumblr [2015-2019], our
-          <b-link class="link" href="http://www.femalepressure.net/rojava.html">#Rojava awareness & solidarity
+          <b-link class="f-link" href="http://www.femalepressure.net/rojava.html">#Rojava awareness & solidarity
             compilation
           </b-link>
           [2016] and the
-          <b-link class="link" href="https://femalepressure.wordpress.com/podcast/" target="_blank">female:pressure
+          <b-link class="f-link" href="https://femalepressure.wordpress.com/podcast/" target="_blank">female:pressure
             podcast
           </b-link>
           series [since 2018].
@@ -72,28 +72,28 @@
       <div class="mb-4">
         <h3>press</h3>
         <b>
-          <b-link class="link" href="https://femalepressure.wordpress.com/press-review/" target="_blank">our press
+          <b-link class="f-link" href="https://femalepressure.wordpress.com/press-review/" target="_blank">our press
             review
           </b-link>
         </b>[as of 2013]
         <p>
-          <b-link class="link" href="http://www.femalepressure.net/pictures.html">see some pictures from the archive
+          <b-link class="f-link" href="http://www.femalepressure.net/pictures.html">see some pictures from the archive
           </b-link>
         </p>
       </div>
       <div class="mb-4">
         <h3>credits</h3>
         <p>database programming, back end:
-          <b-link class="link" href="http://mortasvault.com" target="_blank">alex dohm</b-link>
+          <b-link class="f-link" href="http://mortasvault.com" target="_blank">alex dohm</b-link>
           <br>
           website programming, front end:
-          <b-link class="link" href="https://luanes.bandcamp.com/" target="_blank">ines nogueira</b-link>
+          <b-link class="f-link" href="https://luanes.bandcamp.com/" target="_blank">ines nogueira</b-link>
           , alex dohm<br>
           graphic design:
-          <b-link class="link" href="http://www.marinedrouan.eu/" target="_blank">marine drouan</b-link>
+          <b-link class="f-link" href="http://www.marinedrouan.eu/" target="_blank">marine drouan</b-link>
           <br>
           general content:
-          <b-link class="link" href="http://indigo-inc.at/" target="_blank">electric indigo</b-link>
+          <b-link class="f-link" href="http://indigo-inc.at/" target="_blank">electric indigo</b-link>
         </p>
       </div>
       <div>
@@ -120,7 +120,3 @@ export default {
   },
 };
 </script>
-<style lang="sass" scoped>
-.link
-  @include link
-</style>

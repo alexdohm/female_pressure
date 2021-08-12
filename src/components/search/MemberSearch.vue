@@ -7,15 +7,19 @@
         :serializer="item => (item.alias1 || item.alias2 || item.alias3)"
         placeholder="search name"
         @hit="selectMember($event)"
+        class="member-search"
     >
+      <template slot="append">
+          <b-icon-search variant="dark" font-scale="1.3" class="my-auto mx-2"></b-icon-search>
+      </template>
       <template slot="suggestion" slot-scope="{ data }">
-        <b-row class="m-0">
+        <b-row class="m-0 w-100">
           <b-col class="p-0 m-0">
             <div>{{ data.alias1 }}</div>
-            <div class="text-muted sub-alias"> {{ data.alias2 }}<span v-if="data.alias3">, {{ data.alias3 }}</span></div>
+            <div class="text-muted f-text-smaller"> {{ data.alias2 }}<span v-if="data.alias3">, {{ data.alias3 }}</span></div>
           </b-col>
-          <b-col class="my-auto p-0 mx-0">
-            {{data.city_name}}, {{data.country_name}}
+          <b-col class="my-auto f-text-small text-right p-0 mx-0">
+            {{data.city_name}}, <br /> {{data.country_name}}
           </b-col>
         </b-row>
       </template>
@@ -56,6 +60,11 @@ export default {
         await Vue.prototype.$http.get(`${Vue.prototype.$hostname}/search/member-search/${query}`)
             .then(response => {
               response.data ? this.users = response.data : this.users = []
+              if (!response.data && this.memberSearch.length > 0) {
+                this.users = [{
+                  alias1: "No results found"
+                }]
+              }
             }, error => {
               console.log(error)
             })
@@ -78,6 +87,19 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-.sub-alias
-  font-size: 12px
+.member-search
+  border-radius: 0
+  border: 3px solid $searchBorder
+  &:hover
+    border: 3px solid #00e3b9!important
+  /deep/ .form-control
+    border: none!important
+    color: black
+    &:focus
+      outline: none !important
+      box-shadow: none !important
+    &::placeholder
+      color: black
+
+
 </style>

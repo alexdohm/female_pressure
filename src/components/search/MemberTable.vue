@@ -17,14 +17,14 @@
         <div class="followed">
           <b-button variant="link" class="heart-button p-0"
                     @click="toggleLike({email: data.item.email, currentlyFollowing: data.item.followed})">
-            <b-heart-fill v-if="data.item.followed"></b-heart-fill>
-            <b-heart v-else></b-heart>
+            <b-icon-heart-fill v-if="data.item.followed"></b-icon-heart-fill>
+            <b-icon-heart v-else></b-icon-heart>
           </b-button>
         </div>
       </template>
       <template #cell(name)="data">
         <div class="primary-text">{{ data.item.alias1 }}</div>
-        <div class="secondary-text">
+        <div class="alias secondary-text font-weight-bold">
           {{ data.item.alias2 }}
           <span v-if="data.item.alias3 !== null">, </span>
           {{ data.item.alias3 }}
@@ -62,15 +62,21 @@
       </template>
     </b-table>
     <b-row v-if="members.length > 0" class="justify-content-center">
-      <b-col sm="7" md="6" class="my-1">
+      <b-col cols="auto" class="my-1">
         <b-pagination
             v-model="currentPage"
             :total-rows="totalRows"
             :per-page="perPage"
             align="fill"
             size="sm"
-            class="my-0"
-        ></b-pagination>
+            class="my-0 pagination"
+            page-class="page-styling"
+        >
+          <template #first-text><b-icon-chevron-double-left /></template>
+          <template #prev-text><b-icon-chevron-left /></template>
+          <template #next-text><b-icon-chevron-right /></template>
+          <template #last-text><b-icon-chevron-double-right /></template>
+        </b-pagination>
       </b-col>
     </b-row>
   </div>
@@ -117,8 +123,8 @@ export default {
     };
   },
   mounted() {
-    this.SET_FILTERED_MEMBERS([])
     this.showHearts = this.authenticated
+    this.SET_FILTER_APPLIED(false)
   },
   computed: {
     ...mapState({
@@ -136,8 +142,8 @@ export default {
   },
   methods: {
     ...mapMutations({
-      SET_FILTERED_MEMBERS: 'search/SET_FILTERED_MEMBERS',
-      SET_SELECTED_MEMBER: 'search/SET_SELECTED_MEMBER'
+      SET_SELECTED_MEMBER: 'search/SET_SELECTED_MEMBER',
+      SET_FILTER_APPLIED: 'search/SET_FILTER_APPLIED'
     }),
     ...mapActions({
       toggleLike: 'search/toggleLike'
@@ -161,17 +167,27 @@ export default {
         default:
           return false
       }
-    }
+    },
   }
 };
 </script>
 
 <style lang="sass" scoped>
+.member-search-results /deep/ th
+  border-bottom: 2px solid #2afec5
+  border-top: 2px solid #2afec5
+
+.member-search-results /deep/ td
+  border-bottom: 2px solid $searchBorder
+
 .primary-text
   font-size: 13px
 
 .secondary-text
   font-size: 10px
+
+.alias
+  color: #36fbf6
 
 .genre
   background-color: #36fbf6
@@ -179,29 +195,24 @@ export default {
   padding-right: 2px
 
 .profession
-  background-color: lightcyan
+  background-color: #2afec5
   padding-left: 2px
   padding-right: 2px
 
 .heart-button
-  color: black
-
+  color: #4be18d
   &:hover
     transform: scale(1.15)
     transition: transform .1s ease-in-out
     cursor: pointer
-
   &:active
     transform: scale(1)
     transition-property: transform
     transition-duration: 0.15s
     transition-timing-function: cubic-bezier(0, .62, .46, 2.03)
-
   &:focus
     outline: none !important
     box-shadow: none !important
-
-
 </style>
 
 <style lang="sass">
@@ -211,10 +222,27 @@ export default {
 .member-search-results
   td
     width: 55px
-
   tr
     cursor: pointer
-
   td + td
     width: calc((100% / 4))
+
+.page-item.active .page-link
+  color: black
+  border-radius: 15px
+  border: 1px solid black
+  flex-grow: 0!important
+  width: 30px
+  background-color: #36fbf6
+
+.page-item .page-link
+  color: #36fbf6
+  border-radius: 15px
+  border: 1px solid #36fbf6
+  flex-grow: 0!important
+  width: 30px
+  background-color: white
+  margin-left: 5px
+  margin-right: 5px
+
 </style>
