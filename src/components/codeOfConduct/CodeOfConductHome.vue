@@ -87,7 +87,7 @@
       <div class="mb-4">
         <h4>reservation</h4>
         female:pressure prioritizes marginalized people’s safety over privileged people’s comfort. Therefore, our
-        awareness team reserves the right <b>not</b> to act on:
+        awareness team reserves the right <b><i>not</i></b> to act on:
         <ul>
           <li>Complaints regarding ‘reverse’ -isms, including ‘reverse racism’, ‘reverse sexism’ and ‘cisphobia’</li>
           <li>Complaints regarding reasonable communication of boundaries, such as “leave me alone”, “go away” or “I’m
