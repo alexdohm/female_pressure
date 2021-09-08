@@ -1,7 +1,7 @@
 export const links = [
     // ANTI RACISM
     {
-        categoryTitle: "anti-racism reading and listening resources",
+        categoryTitle: "anti-racism resources",
         shortCategoryTitle: "anti-racism",
         links: [
             {
@@ -113,9 +113,9 @@ export const links = [
             },
         ],
     },
-    // BLOGS IN ENGLISH
+    // PUBLICATIONS IN ENGLISH
     {
-        categoryTitle: "online magazines, blogs and podcasts in english",
+        categoryTitle: "publications in english",
         shortCategoryTitle: "blog-english",
         links: [
             {
@@ -264,9 +264,9 @@ export const links = [
             },
         ],
     },
-    //  BLOGS IN OTHER LANGUAGES
+    //  PUBLICATIONS IN OTHER LANGUAGES
     {
-        categoryTitle: "online magazines, blogs and podcasts in other languages",
+        categoryTitle: "publications in other languages",
         shortCategoryTitle: "blogs-other",
         links: [
             {
@@ -348,7 +348,7 @@ export const links = [
     },
     // MUSIC PRODUCTION
     {
-        categoryTitle: "music production, gear and tech stuff",
+        categoryTitle: "music production, gear & tech stuff",
         shortCategoryTitle: "production",
         links: [
             {
@@ -486,7 +486,7 @@ export const links = [
     },
     // NETWORKS COLLECTIVES AND INDICES
     {
-        categoryTitle: "networks, collectives and indices",
+        categoryTitle: "networks, collectives & indices",
         shortCategoryTitle: "networks",
         links: [
             {
@@ -876,9 +876,9 @@ export const links = [
             },
         ],
     },
-    // INTERNET RADIO AND LIVESTREAMS
+    // INTERNET RADIOS AND LIVE STREAMS
     {
-        categoryTitle: "internet radio and livestreams ",
+        categoryTitle: "internet radios & live streams ",
         shortCategoryTitle: "livestreams",
         links: [
             {
@@ -926,7 +926,7 @@ export const links = [
 
     // LGBT GLOSSARIES AND GENDER RESOURCES
     {
-        categoryTitle: "lgbt glossaries and gender resources",
+        categoryTitle: "lgbtqia+ glossaries & gender resources",
         shortCategoryTitle: "lgbt",
         links: [
             {
