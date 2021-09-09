@@ -19,11 +19,11 @@
       </div>
       <div class="mb-4">
         <h3>gdpr</h3>
-        <p>
+        <div>
           The EU General Data Protection Regulation [GDPR] effective from May 2018 gives all EU citizens more rights and
           protections for their personal data, to minimise the possibility of theft and fraud. These regulations include
           provisions for the following areas:
-        </p>
+        </div>
         <ul>
           <li>The right to be informed: Organisations must publish a privacy notice, in addition to explaining
             transparently how they use this personal data.
@@ -66,11 +66,11 @@
       </div>
       <div class="mb-4">
         <h3>how we collect data</h3>
-        <p>
+        <div>
           We use different methods to collect data from and about you including through direct interactions. You may
           give us your identity and contact by filling in forms or by corresponding with us by post, email or otherwise.
           This includes personal data you provide when you:
-        </p>
+        </div>
         <ul>
           <li>join the network on our Website;</li>
           <li>create and edit your profile on our Website;</li>
@@ -81,7 +81,7 @@
       </div>
       <div class="mb-4">
         <h3>information we collect from you</h3>
-        <p>We collect and process the following data about you:</p>
+        <div>We collect and process the following data about you:</div>
         <ul>
           <li>Information that you provide when you fill in forms on our site, such as your name, email address, city of
             residence, website, social media channels, pronouns, and phone number. We ask you to consent to this privacy
@@ -102,11 +102,11 @@
           including your name and contact details. We may collect additional information about you from emails or other
           correspondence that you send to us.
         </p>
-        <p>
+        <div>
           (b) With your consent to this privacy notice when creating a profile in our database you agree to make the
           following information about you publicly available in search results or in the “randomly featured artist”
           section:
-        </p>
+        </div>
         <ul>
           <li>Your artist name</li>
           <li>Your location</li>
@@ -119,11 +119,11 @@
           <li>Any other information you choose to make public</li>
           <li>Whether your work remotely [if applicable]</li>
         </ul>
-        <p>
+        <div>
           (c) With your consent to this privacy notice you also agree to make additional information available to other
           signed in members of the female:pressure network if you choose to do so in the settings of your profile. This
           includes the following:
-        </p>
+        </div>
         <ul>
           <li>Your personal pronouns</li>
           <li>A short info text or “blurb”</li>
