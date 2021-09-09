@@ -19,7 +19,7 @@ import {
     faTumblr,
     faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
-import {faUserCircle, faCog} from "@fortawesome/free-solid-svg-icons";
+import {faUserCircle, faCog, faBars, faFilter} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
 library.add(
     faTwitter,
@@ -32,7 +32,9 @@ library.add(
     faTumblr,
     faYoutube,
     faUserCircle,
-    faCog
+    faCog,
+    faBars,
+    faFilter
 );
 Vue.component("font-awesome-icon", FontAwesomeIcon);
 Vue.use(BootstrapVue);

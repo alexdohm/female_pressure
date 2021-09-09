@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="test">
     <b-table hover
              :items="members"
              :fields="computedFields"
@@ -129,7 +129,7 @@ export default {
   computed: {
     ...mapState({
       members: (state) => state.search.filteredMembers,
-      authenticated: (state) => state.authentication.authenticated
+      authenticated: (state) => state.authentication.authenticated,
     }),
     computedFields() {
       return this.showHearts ? this.fields : this.fields.filter(row => row.key !== 'liked');
@@ -229,19 +229,22 @@ export default {
 
 .page-item.active .page-link
   color: black
-  border-radius: 15px
-  border: 1px solid black
+  background: transparent
   flex-grow: 0!important
   width: 30px
-  background-color: #36fbf6
+
+.page-item.disabled .page-link
+  color: lightgrey
+  flex-grow: 0!important
+  background: transparent
+  width: 30px
 
 .page-item .page-link
-  color: #36fbf6
-  border-radius: 15px
-  border: 1px solid #36fbf6
+  color: darkcyan
   flex-grow: 0!important
   width: 30px
-  background-color: white
+  border: none
+  background-color: transparent
   margin-left: 5px
   margin-right: 5px
 

@@ -1,8 +1,11 @@
 <template>
-  <b-dropdown variant="link" class="p-0 w-100 mr-0" ref="projects-dropdown" left toggle-class="text-decoration-none"
+  <b-dropdown variant="link"
+              class="p-0 w-100 mr-0" ref="projects-dropdown"
+              left
+              toggle-class="text-decoration-none"
               no-caret>
     <template #button-content>
-      <div class="dropdown-link"
+      <div class="dropdown-link font-weight-bold"
            @click="$emit('navigate','projects')">
         <span class="pr-2 login">projects</span>
       </div>
@@ -13,7 +16,7 @@
                      target="_blank"
                      class="project-dropdown-item"
     >
-      <b-img :src="require('@/assets/special-projects-logos/' + project.img)"
+      <b-img-lazy :src="require('@/assets/special-projects-logos/' + project.img)"
              class="menu-project-logo mr-3"/>
       <span class="text-lowercase mr-1">{{ project.title }}</span>
       <small>[{{ project.year }}]</small>
@@ -59,6 +62,8 @@ export default {
       border-radius: 0
       border: none
       background-color: map-get($menuItems, "projects")
+      @media screen and (max-height: 750px)
+        top: 49px !important
       @media screen and (max-width: 1399px)
         width: 100vw * 3 / 7
       @media screen and (min-width: 1400px)
