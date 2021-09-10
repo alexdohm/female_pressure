@@ -46,8 +46,7 @@
             health, parenting, drugs, employment, and sex work
           </li>
           <li>Deliberate misgendering or use of rejected names, deliberate deadnaming or disrespect of preferred
-            personal
-            pronouns when this has been made clear
+            personal pronouns when this has been made clear
           </li>
           <li>Deliberate mislabelling of geographic entities [e.g. the use of 'America' or 'Americans' for the USA or US
             citizens respectively and thus ignoring the majority of South, Central and North America]
