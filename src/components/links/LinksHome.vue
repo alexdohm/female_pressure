@@ -50,15 +50,15 @@
 </template>
 
 <script>
-import { links } from "@/assets/data/links";
-import Header from "@/components/header/Header";
-import { mapMutations } from "vuex";
+import { links } from '@/assets/data/links';
+import Header from '@/components/header/Header';
+import { mapMutations } from 'vuex';
 
 export default {
   data() {
     return {
       linksData: links,
-      categoryMenu: "",
+      categoryMenu: '',
     };
   },
   watch: {
@@ -73,10 +73,10 @@ export default {
     Header,
   },
   methods: {
-    ...mapMutations(["SET_PAGE"]),
+    ...mapMutations(['SET_PAGE']),
   },
   mounted() {
-    this.SET_PAGE("links");
+    this.SET_PAGE('links');
   },
 };
 </script>
@@ -110,6 +110,9 @@ export default {
     background-color: #99fcc6
     .language-mobile
       color: white
+  &:active
+    background-color: #99fcc6
+
 
 .category-text
   cursor: pointer
