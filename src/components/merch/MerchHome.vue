@@ -164,42 +164,4 @@ export default {
   padding-bottom: 40px
   border-bottom: #00ffc5 1px solid
 
-
-// MODAL
-.modal-mask
-  position: fixed;
-  z-index: 9998;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-
-.modal-wrapper
-  vertical-align: middle;
-
-.modal-container
-  width: 50%;
-  margin: 20% auto;
-  padding: 20px;
-  background-color: #fff;
-  border: 1px solid #00FB9C;
-
-.close-button
-  color: #00FB9C;
-  background: none;
-  border: none;
-  font-size: 20px
-
-// TABLE
-table
-  border: 1px solid #00FB9C;
-  text-align: center;
-
-th
-  border-bottom: 2px solid #00FB9C;
-  background-color: #dcfaff
-
-td, th
-  border-right: 2px solid #00FB9C;
 </style>
