@@ -7,7 +7,8 @@
         <h2>female:pressure relaunch t-shirt</h2>
 
         <h5 class="mb-4">
-          To celebrate our new website, here is a new t-shirt
+          we have a new t-shirt made to celebrate our new website ! orders,
+          manufacturing, shipping handled by everpress.
         </h5>
         <div class="d-flex mw-100">
           <img
@@ -21,7 +22,7 @@
 
       <!-- CANT DECIDE -->
       <div class="cant-decide my-5">
-        <h2 class="mb-4">female:pressure cant decide</h2>
+        <h2 class="mb-4">female:pressure x can’t decide t-shirts</h2>
         <div class="d-flex mw-100">
           <img
             class="flex-img mr-3"
@@ -37,67 +38,32 @@
         <figcaption class="figure-caption mb-3">
           credit: Aiko Okamoto
         </figcaption>
-        <h5>
-          Fresh mint x white t-shirt for female:pressure members & supporters!
-          female:pressire is a transnational network and dtabase of artists and
-          culturual workers who operate in electronic music and visual arts
-        </h5>
+        <p class="mb-4">
+          all gender xs-xxl t-shirt in white or mint [russel athletic, oeko tex]
+          with female:pressure logo embroidery made by can´t decide.
+          <br />
+
+          these t-shirts will be made on demand and only as many as ordered.<br />
+          we need a minimum of five t-shirts ordered before we can do a new
+          batch.
+        </p>
+
+        <p class="mb-2">30 € each + shipping</p>
+
+        <p>
+          <b>shipping costs:</b><br />
+          germany: € 3.79 [not insured / not trackable]<br />
+          european union: € 6.05 [tracked]<br />
+          world wide: € 7.35 [tracked]<br />
+        </p>
+        <p>
+          for insured package or more info about the t-shirt please ask
+          merch@femalepressure.net
+        </p>
 
         <button class="f-button mt-4" @click="showModal = true">order</button>
-        <MerchModal :showModal="showModal" />
-      </div>
 
-      <!-- ARCHIVE -->
-      <div class="archive-tab p-0 m-0">
-        <h3 class="archive-title m-0">archive</h3>
-      </div>
-
-      <!-- 21Years     -->
-      <div class="21y mt-4">
-        <h4>Here are a few of the T-shirts we did in the past</h4>
-        <div class="d-flex mw-100 mt-4">
-          <img
-            class="flex-img mr-3"
-            src="../../assets/merch/FP21_TShirt_3.jpg"
-            alt=" woman wearing female pressure tshirt 210"
-          />
-          <img
-            class="flex-img"
-            src="../../assets/merch/FP21_TShirt_1.jpg"
-            alt=" woman wearing female pressure tshirt 210"
-          />
-        </div>
-        <figcaption class="figure-caption">
-          Photos above show C-Refund(aka Sarah) taking it easy in her studio,
-          enjoying our new female:pressure T-shirt in Caribbean blue
-          <b-link href="http://co-re-studio.com/" target="_blank"
-            >@ core studio</b-link
-          >
-        </figcaption>
-      </div>
-      <div class="20y mt-5">
-        <div class="d-flex mw-100 mt-5">
-          <div class="out-stock">
-            <img
-              class="flex-img"
-              src="../../assets/merch/fp_t-anthrazite.png"
-              alt=" woman wearing female pressure tshirt 210"
-            />
-            <figcaption class="figure-caption">
-              female:pressure 21y t-shirt
-            </figcaption>
-          </div>
-          <div class="out-stock">
-            <img
-              class="flex-img mr-3"
-              src="../../assets/merch/t-shirt-20-1.png"
-              alt=" woman wearing female pressure tshirt 210"
-            />
-            <figcaption class="figure-caption">
-              female:pressure 20y t-shirt
-            </figcaption>
-          </div>
-        </div>
+        <MerchModal :showModal="showModal" @onClose="handleClose"/>
       </div>
     </b-container>
   </div>
@@ -121,6 +87,9 @@ export default {
   },
   methods: {
     ...mapMutations(['SET_PAGE']),
+    handleClose() {
+      this.showModal = false;
+    },
   },
   mounted() {
     this.SET_PAGE('merch');
@@ -163,5 +132,4 @@ export default {
 .relaunch-tshirt
   padding-bottom: 40px
   border-bottom: #00ffc5 1px solid
-
 </style>
