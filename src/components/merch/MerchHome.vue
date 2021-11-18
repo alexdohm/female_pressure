@@ -1,48 +1,54 @@
 <template>
   <div>
-    <Header/>
-    <b-container class="mt-5 body-container">
+    <Header>
+      merch
+    </Header>
+    <b-container class="mt-5 f-body-container">
       <!-- RELAUNCH TSHIRT -->
       <div class="relaunch-tshirt mb-5">
         <h2>female:pressure relaunch t-shirt</h2>
 
-        <p>let's celebrate our new website with a new t-shirt !</p>
+        <h5>To celebrate our new website, here is a new t-shirt</h5>
         <div class="d-flex mw-100">
           <img
               class="flex-img mr-3"
-              src="../../assets/merch/fp-relaunch-mockup.png"
-              alt="relaunch t-shirt grey"
+              src="../../assets/merch/fp_t-anthrazite.png"
+              alt="relaunch tshirts grey"
           />
         </div>
       </div>
       <!-- CANT DECIDE -->
       <div class="cant-decide my-5">
-        <h2>female:pressure x can't decide</h2>
-        <p>
-          mint/white t-shirts with embroidered logo for female:pressure members & supporters
-        </p>
+        <h2>female:pressure cant decide</h2>
         <div class="d-flex mw-100">
           <img
               class="flex-img mr-3"
-              src="../../assets/merch/fp-embroidery1.jpg"
-              alt="vani-t wearing female:pressure x can't decide t-shirt"
+              src="../../assets/merch/fp_t-embroded-1.jpg"
+              alt=" woman wearing female pressure tshirt 210"
           />
           <img
               class="flex-img mr-3"
-              src="../../assets/merch/fp-embroidery2.jpg"
-              alt="female:pressure x can't decide t-shirt"
+              src="../../assets/merch/fp_t-embroded-2.jpg"
+              alt=" woman wearing female pressure tshirt 210"
           />
           <img
               class="flex-img mr-3"
-              src="../../assets/merch/fp-embroidery3.jpg"
-              alt="female:pressure x can't decide embroidery"
+              src="../../assets/merch/fp_t-embroded-3.jpg"
+              alt=" woman wearing female pressure tshirt 210"
           />
         </div>
         <figcaption class="figure-caption mb-3">
-          photo on the left [by aiko okamoto] shows tori aka vani-t, a dj, producer and organizer of the queer party
-          <b-link href="https://www.facebook.com/climaxbaby/" target="_blank">climax</b-link>
+          Photos above (credit: Aiko Okamoto) shows Tori (VANI-T), a DJ, producer
+          and organizer of the wueer party Climax. Tori expects form
+          female:pressure to keep providing an integral platform and pushing each
+          other
         </figcaption>
-        <button class="button">more info</button>
+        <h5>
+          Fresh mint x white t-shirt for female:pressure members & supporters!
+          female:pressire is a transnational network and dtabase of artists and
+          culturual workers who operate in electronic music and visual arts
+        </h5>
+        <button class="f-button">more info</button>
       </div>
       <!-- ARCHIVE -->
       <div class="archive-tab p-0 m-0">
@@ -51,22 +57,25 @@
 
       <!-- 21Years     -->
       <div class="21y mt-4">
-        <h4>here are a few of the t-shirts we made in the past</h4>
+        <h4>Here are a few of the T-shirts we did in the past</h4>
         <div class="d-flex mw-100 mt-4">
           <img
               class="flex-img mr-3"
-              src="../../assets/merch/fp21-t3.jpg"
-              alt="c-refund wearing female:pressure t-shirt"
+              src="../../assets/merch/FP21_TShirt_3.jpg"
+              alt=" woman wearing female pressure tshirt 210"
           />
           <img
               class="flex-img"
-              src="../../assets/merch/fp21-t1.jpg"
-              alt="c-refund wearing female:pressure t-shirt"
+              src="../../assets/merch/FP21_TShirt_1.jpg"
+              alt=" woman wearing female pressure tshirt 210"
           />
         </div>
         <figcaption class="figure-caption">
-          photos above show c-refund taking it easy in her studio, enjoying our female:pressure 21y t-shirt @
-          <b-link href="co-re-studio.com" target="_blank">co-re-studio.com</b-link>
+          Photos above show C-Refund(aka Sarah) taking it easy in her studio,
+          enjoying our new female:pressure T-shirt in Caribbean blue
+          <b-link href="http://co-re-studio.com/" target="_blank"
+          >@ core studio</b-link
+          >
         </figcaption>
       </div>
       <div class="20y mt-5">
@@ -74,8 +83,8 @@
           <div class="out-stock">
             <img
                 class="flex-img"
-                src="../../assets/merch/fp-21-anthracite.png"
-                alt="21 years anniversary t-shirt"
+                src="../../assets/merch/fp_t-anthrazite.png"
+                alt=" woman wearing female pressure tshirt 210"
             />
             <figcaption class="figure-caption">
               female:pressure 21y t-shirt
@@ -84,8 +93,8 @@
           <div class="out-stock">
             <img
                 class="flex-img mr-3"
-                src="../../assets/merch/fp20-black-unisex.png"
-                alt="20 years anniversary t-shirt"
+                src="../../assets/merch/t-shirt-20-1.png"
+                alt=" woman wearing female pressure tshirt 210"
             />
             <figcaption class="figure-caption">
               female:pressure 20y t-shirt
@@ -122,7 +131,6 @@ export default {
 .out-stock
   color: black
   position: relative
-
   &:after
     position: absolute
     content: "OUT OF STOCK"
@@ -137,9 +145,6 @@ export default {
 .figure-caption
   color: black
   text-align: center
-
-.button
-  @include button
 
 .archive-tab
   border-bottom: 2px solid #00FB9C

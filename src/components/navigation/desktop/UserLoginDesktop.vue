@@ -1,9 +1,14 @@
 <template>
-  <b-dropdown variant="link" class="p-0 w-100" ref="login" right toggle-class="text-decoration-none" no-caret >
+  <b-dropdown variant="link"
+              class="p-0 w-100"
+              ref="login"
+              right
+              toggle-class="text-decoration-none"
+              no-caret >
     <template #button-content>
       <div class="dropdown-link" @click.stop="showDropdown = !showDropdown">
         <span v-if="authenticated" class="pr-2 login">member</span>
-        <span v-else class="pr-2 login font-weight-bold">login</span>
+        <span v-else class="pr-2 login">login</span>
         <font-awesome-icon icon="user-circle" size="lg"/>
       </div>
     </template>
@@ -43,9 +48,9 @@
       </b-dropdown-form>
       <hr class="divider">
       <b-dropdown-text class="text-center mb-2 join-section">
-        <span class="font-weight-normal">not a member yet? </span>
-        <b-link @click="$router.push({ name: 'Join Network' }); SET_PAGE('join');" class="f-link join-network">join the
-          network
+        <span class="not-a-member">not a member yet? </span>
+        <b-link @click="$router.push({ name: 'Join Network' })" class="f-link join-network">
+          join the network
         </b-link>
       </b-dropdown-text>
     </div>
@@ -80,12 +85,10 @@ export default {
         this.showDropdown = false
         if (this.admin) {
           this.$router.push({name: 'Admin Home'})
-          this.SET_PAGE('')
         } else if (this.$route.path === '/') {
           //do nothing
         } else if (this.$route.meta.onlyLoggedOut) {
           this.$router.push({name: 'Home'})
-          this.SET_PAGE('home')
         } else {
           window.location.reload()
         }
@@ -102,7 +105,6 @@ export default {
       this.LOGOUT()
       if (!this.$route.meta.public) {
         this.$router.push({name: 'Home'})
-        this.SET_PAGE('home')
       } else if (this.$route.path === '/') {
         //do nothing
       } else {
@@ -191,4 +193,7 @@ export default {
 
 .join-network
   cursor: pointer !important
+
+.not-a-member
+  font-family: $font-regular
 </style>

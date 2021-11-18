@@ -36,6 +36,11 @@ const routes = [
 		component: () => import("@/components/merch/MerchHome"),
 	},
 	{
+		path: "/explore",
+		name: "Explore",
+		component: () => import("@/components/explore/ExploreHome"),
+	},
+	{
 		path: "/code_of_conduct",
 		name: "CoC",
 		component: () => import("@/components/codeOfConduct/CodeOfConductHome"),
@@ -43,7 +48,7 @@ const routes = [
 	{
 		path: "/blog",
 		name: "Blog",
-		component: () => import("@/components/blog/AutoCompleteCities"),
+		component: () => import("@/components/blog/BlogHome"),
 	},
 	{
 		path: "/faq",

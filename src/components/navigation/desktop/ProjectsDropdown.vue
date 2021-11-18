@@ -1,11 +1,12 @@
 <template>
   <b-dropdown variant="link"
-              class="p-0 w-100 mr-0" ref="projects-dropdown"
+              class="p-0 w-100 mr-0"
+              ref="projects-dropdown"
               left
               toggle-class="text-decoration-none"
               no-caret>
     <template #button-content>
-      <div class="dropdown-link font-weight-bold"
+      <div class="dropdown-link"
            @click="$emit('navigate','projects')">
         <span class="pr-2 login">projects</span>
       </div>
